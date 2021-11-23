@@ -1,0 +1,65 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.navbar{
+    background-color: #96C7C1;
+    color: #DED9C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main{
+
+    margin: 1rem;
+    font-size: 2rem;
+}
+.navbar-links ul{
+  /*  border: 3px solid black;*/
+display:flex;
+justify-content: space-evenly;
+
+}
+.navbar-links li{
+list-style: none;
+
+
+}
+.navbar-links li a{
+text-decoration: none;
+padding: 2vw;
+font-size: 1.5rem;
+color: #DED9C4;
+display: block;
+
+}
+.navbar-links li:hover{
+background-color: burlywood;
+border-radius: 15px;
+
+<1-- navbara ;ekil ve renk verme tegleri-->
+
+}
+.navbar-links li a:hover{
+    color:darkblue
+  
+}
+#icon-navbar {
+  position: absolute;
+  left: 2vw;
+  top: 2vh;
+  font-size: 1.5rem;
+  display: none;
+}
+@media (max-width: 760px){
+  #ican-navbar{
+    display: flex
+  }
+}
+.navbar-links {
+  
+}

@@ -1,0 +1,183 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Montagu Slab', serif;
+
+}
+
+.navbar{
+background-color: #E38835;
+position: sticky;
+top: 0;
+z-index: 999;
+}
+
+
+.navbar ul{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.navbar li {
+list-style: none;
+padding: 20px;
+/*border: 1px solid black;*/
+display: block;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    transition: 0.4s;
+    /*border:1px solid black:*/
+  
+
+}
+
+.navbar li a:hover{
+font-size: 2rem;
+
+}
+.main{
+    background-image: url(../images/first.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7
+
+}
+
+.title{
+
+    font-size: 5rem;
+    color:mediumturquoise
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+
+img, .description-chef {
+width: 25%;
+
+}
+.description-chef{
+    padding: 5vw;
+}
+
+.description-title{
+    text-align: center;
+    padding: 1vh;
+    font-size: 1.5rem;
+
+}
+.menu{
+background-image: url(../images/second.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+width: 100%;
+height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.menu-card{
+    background-color:white;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:200px;
+    height:80%;
+    margin:0 2 vw;
+    padding: 4px;
+    display:flex;
+    flex-direction:column;
+    justify-content:
+    align-items: center;
+}
+
+
+.menu-card-item{
+/*border: 1px solid gray;*/
+height: 35%;
+}
+
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    margin-top: 1vh;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+
+}
+.m-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.m-description{
+
+    text-align: center;
+
+}
+
+.quote{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50%;
+
+}
+.quote-desc{
+    font-size: 5rem;
+
+}
+
+.quote-img{
+margin-left: 40%;
+
+
+}
+.gallery{
+    display: flex;
+
+}
+.gallery-img{
+    width: 25%;
+
+}
+.gallery-img:hover {
+    opacity: 0.5;
+}
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
