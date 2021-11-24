@@ -180,4 +180,14 @@ margin-left: 40%;
 
 
 }
+.footer-img{
+    width: 10%;
+}
 
+.footer a{
+    text-decoration: none;
+    color: black
+}
+.footer a:hover{
+    color:#E38835
+}
